@@ -1,0 +1,11 @@
+/* This is a comment */
+a.p1:hover {
+    cursor: context-menu;    
+}
+
+div.dinner {
+    margin-left: 40%;
+    height: 200px; 
+    width: 200px;
+    border: solid purple; 
+}
