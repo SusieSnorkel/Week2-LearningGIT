@@ -1,6 +1,91 @@
-/* This is a comment */
+/* Hyperlink Styling */
 a.p1:hover {
-    cursor: context-menu;    
+    cursor: crosshair;   
+    font-size: x-large;
+    color: black;
+    font-family: fantasy;
+    }
+
+/* Headers Styling */
+h2 {
+    color: mediumslateblue;
+    background-color: plum; 
+    text-align-last: center;
+    font-family: fantasy;
+    font-size: 50px;
+    }
+
+h1 {
+    color: darkslateblue;
+    background-color: plum;
+    text-align-last: center;
+    font-family: fantasy; 
+    font-size: 50px;
+    }
+
+    h4 {
+        color: darkslateblue;
+        text-align-last: center;
+        font-family: fantasy;
+        font-size: 40px;       
+        }
+
+    h3 {
+        color: darkslateblue;
+        text-align-last: center;
+        font-family: fantasy;
+        font-size: 40px; 
+    }    
+
+        /* Table Styling Page 2*/
+tr, th {
+    color: #000;
+    font-size: 20px;
+    align-items: center;
+}
+
+table {width: 100%;
+        border: dotted;
+    }
+th {
+    background-color: lightpink;
+    border: dotted; color: #000;
+
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+    font-family: fantasy;
+    }
+
+/* List Styling Page 2 */
+ol {
+    background: #ff9999;
+    text-align: left;
+    list-style-type: decimal-leading-zero;
+}
+/* Form Syling */
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/* Images Styling */
+div.spice {
+    margin-left: 40%;
+    height: 150px; 
+    width: 150px;
+    border: solid purple; 
+    }
+
+div.pot {
+    margin-left: 40%;
+    height: 189px; 
+    width: 300px;
+    border-style: outset;
+    
+
 }
 
 div.dinner {
